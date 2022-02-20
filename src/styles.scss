@@ -1,1 +1,117 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  /* primary */
+  --color-primary: #f5cb5c;
+  --color-primary-rgb: 245, 203, 92;
+  --color-primary-contrast: #000000;
+  --color-primary-contrast-rgb: 0, 0, 0;
+  --color-primary-shade: #d8b351;
+  --color-primary-tint: #f6d06c;
+
+  /* secondary */
+	--color-secondary: #8d3dde;
+	--color-secondary-rgb: 141,61,222;
+	--color-secondary-contrast: #ffffff;
+	--color-secondary-contrast-rgb: 255,255,255;
+	--color-secondary-shade: #7c36c3;
+	--color-secondary-tint: #9850e1;
+
+  --color-amarillo: #F5CB5C;
+	--color-amarillo-rgb: 245,203,92;
+	--color-amarillo-contrast: #000000;
+	--color-amarillo-contrast-rgb: 0,0,0;
+	--color-amarillo-shade: #d8b351;
+	--color-amarillo-tint: #f6d06c;
+
+  --color-rojo: #EE0151;
+	--color-rojo-rgb: 238,1,81;
+	--color-rojo-contrast: #ffffff;
+	--color-rojo-contrast-rgb: 255,255,255;
+	--color-rojo-shade: #d10147;
+	--color-rojo-tint: #f01a62;
+
+  --color-violeta: #8D3DDE;
+	--color-violeta-rgb: 141,61,222;
+	--color-violeta-contrast: #ffffff;
+	--color-violeta-contrast-rgb: 255,255,255;
+	--color-violeta-shade: #7c36c3;
+	--color-violeta-tint: #9850e1;
+
+  --color-verde: #48FFA5;
+	--color-verde-rgb: 72,255,165;
+	--color-verde-contrast: #000000;
+	--color-verde-contrast-rgb: 0,0,0;
+	--color-verde-shade: #3fe091;
+	--color-verde-tint: #5affae;
+
+  --color-azul: #5957FA;
+	--color-azul-rgb: 89,87,250;
+	--color-azul-contrast: #ffffff;
+	--color-azul-contrast-rgb: 255,255,255;
+	--color-azul-shade: #4e4ddc;
+	--color-azul-tint: #6a68fb;
+
+  /* tertiary */
+  --color-tertiary: #fef3c7;
+  --color-tertiary-rgb: 82, 96, 255;
+  --color-tertiary-contrast: #ffffff;
+  --color-tertiary-contrast-rgb: 255, 255, 255;
+  --color-tertiary-shade: #fceeb7;
+  --color-tertiary-tint: #fffae6;
+
+  /* success */
+  --color-success: #2dd36f;
+  --color-success-rgb: 45, 211, 111;
+  --color-success-contrast: #ffffff;
+  --color-success-contrast-rgb: 255, 255, 255;
+  --color-success-shade: #28ba62;
+  --color-success-tint: #42d77d;
+
+  /* warning */
+  --color-warning: #ffc409;
+  --color-warning-rgb: 255, 196, 9;
+  --color-warning-contrast: #000000;
+  --color-warning-contrast-rgb: 0, 0, 0;
+  --color-warning-shade: #e0ac08;
+  --color-warning-tint: #ffca22;
+
+  /* danger */
+  --color-danger: #eb445a;
+  --color-danger-rgb: 235, 68, 90;
+  --color-danger-contrast: #ffffff;
+  --color-danger-contrast-rgb: 255, 255, 255;
+  --color-danger-shade: #cf3c4f;
+  --color-danger-tint: #ed576b;
+
+  /* dark */
+  --color-dark: #222428;
+  --color-dark-rgb: 34, 36, 40;
+  --color-dark-contrast: #ffffff;
+  --color-dark-contrast-rgb: 255, 255, 255;
+  --color-dark-shade: #1e2023;
+  --color-dark-tint: #383a3e;
+
+  /* medium */
+  --color-medium: #92949c;
+  --color-medium-rgb: 146, 148, 156;
+  --color-medium-contrast: #ffffff;
+  --color-medium-contrast-rgb: 255, 255, 255;
+  --color-medium-shade: #808289;
+  --color-medium-tint: #9d9fa6;
+
+  /* light */
+  --color-light: #f4f5f8;
+  --color-light-rgb: 244, 245, 248;
+  --color-light-contrast: #000000;
+  --color-light-contrast-rgb: 0, 0, 0;
+  --color-light-shade: #d7d8da;
+  --color-light-tint: #f5f6f9;
+
+  --font-family: "Gotham", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family);
+}

@@ -1,0 +1,51 @@
+
+<div class="contenedorHead" >
+    <div class="titulo">
+        <!-- <button (click)="goHome('isOpen1')"><img src="assets/logoCuster.png" alt='Logocuster' /> </button> -->
+        <button 
+        (click)="goOpen()"
+        class="hamburgesa">
+            <span *ngIf="isOpen===false" class="material-icons-outlined">
+                menu
+            </span>
+            <span *ngIf="isOpen===true" class="material-icons">
+                close
+            </span>
+        </button>
+        <div class="menu">
+            <a (click)="goHome('isOpen1')" >
+                <p>¿Que hacemos?</p>
+            </a>
+            <a (click)="goHome('isOpen2')">
+                <p>Asi lo hacemos</p>
+            </a>
+            <a (click)="goHome('isOpen3')">
+                <p>Nuestros clientes</p>
+            </a>
+            <a (click)="goHome('isOpen4')">
+                <p>Promociones especiales</p>
+            </a>
+            <a href="#contacto" (click)="goHome('isOpen1')">
+                <p>Contactanos</p>
+            </a>
+        </div>
+    </div>
+    <div class="menu1" [class]="isOpen ? 'menu-normal ' : 'menu-noVisible'">
+        <a (click)="goHome('isOpen1')">
+            <p>¿Que hacemos?</p>
+        </a>
+        <a (click)="goHome('isOpen2')">
+            <p>Asi lo hacemos</p>
+        </a>
+        <a (click)="goHome('isOpen3')">
+            <p>Nuestros clientes</p>
+        </a>
+        <a (click)="goHome('isOpen4')">
+            <p>Promociones especiales</p>
+        </a>
+        <a href="#contacto" (click)="goHome('isOpen1')">
+            <p>Contactanos</p>
+        </a>
+    </div>
+    
+</div>
